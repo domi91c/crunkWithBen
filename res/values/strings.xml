@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">untitled5</string>
+
+    <string-array name="country_arrays">
+        <item>mL</item>
+        <item>oz</item>
+    </string-array>
+
 </resources>

@@ -1,47 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
         >
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent" android:layout_weight="2">
-        <ScrollView
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:id="@+id/scrollView"/>
     </LinearLayout>
-    <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent" android:layout_weight="12" android:baselineAligned="false">
-        <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent" android:layout_weight="20">
-            <ImageButton
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:id="@+id/imageButton"
-                    android:src="@drawable/beerbutton"/>
-        </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
-                      android:layout_height="fill_parent" android:layout_weight="20" android:id="@+id/linearLayout">
-            <ImageButton android:layout_width="fill_parent" android:layout_height="fill_parent"
-                         android:id="@+id/imageButton" android:src="@drawable/beerbutton"/>
-        </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
-                      android:layout_height="fill_parent" android:layout_weight="20" android:id="@+id/linearLayout3">
-            <ImageButton android:layout_width="fill_parent" android:layout_height="fill_parent"
-                         android:id="@+id/imageButton3" android:src="@drawable/beerbutton"/>
-        </LinearLayout>
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
-                      android:layout_height="fill_parent" android:layout_weight="20" android:id="@+id/linearLayout2">
-            <ImageButton android:layout_width="fill_parent" android:layout_height="fill_parent"
-                         android:id="@+id/imageButton2" android:src="@drawable/beerbutton"/>
-        </LinearLayout>
-    </LinearLayout>
+
 </LinearLayout>
 
